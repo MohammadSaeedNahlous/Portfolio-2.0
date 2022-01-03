@@ -1,0 +1,38 @@
+.main{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:50%;
+    margin: auto;
+}
+.small{
+    
+    color:#17c4a7;
+    font-size:22px;
+    letter-spacing: 3px;
+}
+.title{
+    color: #CCD6F6;
+    font-size:46px
+}
+.paragraph{
+    color: #5D6984;
+    font-size:24px;
+    margin:3%;
+    text-align:center;
+}
+.btn{
+    border: 2px solid #17c4a7;
+    color: #17c4a7;
+    padding:3%;
+    background-color:#0A192F; 
+    font-size:20px;
+    border-radius:5px;
+    transition:0.5s
+}
+
+.btn:hover{
+    background-color: #5d698496;
+}

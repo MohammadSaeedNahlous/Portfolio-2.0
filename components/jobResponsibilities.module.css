@@ -1,0 +1,115 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 50vh;
+}
+
+.titleSpan {
+  color: #17c4a7;
+}
+.jobTitles {
+  width: 30%;
+  color: #17c4a7;
+  font-size: 20px;
+}
+
+.jobTitlesList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-between;
+  list-style: none;
+  height: 100%;
+  border-left: 2px solid #5d6984;
+  padding-left: 0%;
+  margin-left: 0;
+}
+.jobTitlesListItem {
+  padding: 3%;
+  cursor: pointer;
+  padding-right: 1%;
+  margin-left: 0;
+  height: 13%;
+  position: relative;
+}
+.jobTitlesListItem:hover {
+  background-color: #5d6984;
+  transition: 0.5s;
+}
+
+.jobTitlesListItemActive {
+  padding: 3%;
+  cursor: pointer;
+  padding-right: 1%;
+  margin-left: 0;
+  height: 13%;
+  font-weight: bold;
+  position: relative;
+  transition: 0.5s;
+}
+.jobTitlesListItemActive:hover {
+  background-color: #5d6984;
+  transition: 0.5s;
+}
+
+.jobTitlesListItemActive::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  height: 100%;
+  background: #17c4a7;
+  width: 5px;
+  left: -5px;
+  top: 0;
+  margin-right: 5px;
+  transition: 0.5s;
+}
+
+.jobDescription {
+  padding: 0 1%;
+
+  width: 70%;
+  transition: 1s;
+}
+.jobTitleDetails {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.jobTitleDetailsHead {
+  color: #ccd6f6;
+  font-size: 20px;
+  margin: 0;
+  margin-top: 2%;
+}
+.jobTitleDetailsSmall {
+  color: #5d6984;
+  font-size: 14px;
+  margin: 0;
+  margin-top: 2%;
+}
+.JobResponsibilities {
+  height: 50%;
+}
+
+.jobResponsibilitiesList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  height: 100%;
+  color: #ccd6f6;
+}
+
+.jobResponsibilitiesListItem {
+  display: flex;
+  font-size: 18px;
+}
+.tecListItemIcon {
+  margin-right: 10px;
+}

@@ -1,0 +1,69 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 7%;
+    height: max-content;
+    overflow: hidden;
+}
+
+.titleContainer{
+    color: #CCD6F6;
+    position: relative;
+    align-self: flex-start;
+    padding-left: 5%;
+    font-size:20px
+}
+
+.titleContainer::after{
+    content: " ";
+    display: block;
+    position: absolute;
+    height: 0.3px;
+    background: #5D6984;
+    width: 250px;
+    left: 300px;
+    top: calc(50% - 0px);
+}
+
+.titleSpan{
+    color:#17c4a7
+}
+
+.descriptionContainer{
+    color: #5D6984;
+    font-size:18px; 
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.tecContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.tecListContainer{
+    height:25vh
+}
+.tecList{
+    padding-left: 0;
+    margin:0;
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.tecListItem{
+    
+}
+
+.tecListItemIcon{
+    margin-right: 10px;
+}
