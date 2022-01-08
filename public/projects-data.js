@@ -38,7 +38,7 @@ export const PROJECT_DATA = [
         id:'p6',
         title: 'E-Commerce',
         description: "MERN full-stack E-commerce web app with orders, products, payment with credits, I used Redux, React-Bootstrap in addition to MERN technologies",
-        tags: ['ReactJs', 'React-Bootstrap','NodeJs' ,'ExpressJs', 'MongoDB' ,'Redux'],
+        tags: ['ReactJs', 'React-Bootstrap','NodeJs' ,'ExpressJs', 'MongoDB' ,'Redux','JWT'],
         url:'https://github.com/MoSaeedNahlous/MERN-E-commerce'
     },
     {
@@ -66,14 +66,14 @@ export const PROJECT_DATA = [
         id:'p10',
         title: 'Advanced Mobile Web class project',
         description: "My part of my Advanced Mobile Web class project is MERN full-stack web app about traffic tickets management",
-        tags: ['ReactJs','NodeJs' ,'ExpressJs', 'MongoDB' ,'Redux'],
+        tags: ['ReactJs','NodeJs' ,'ExpressJs', 'MongoDB' ,'Redux','JWT'],
         url:'https://github.com/MoSaeedNahlous/AMW-Project'
     },
     {
-        id:'p12',
+        id:'p11',
         title: 'Social Media App',
-        description: "MERN full-stack web app , it's like Facebook (soon..)",
-        tags: ['ReactJs','NodeJs' ,'ExpressJs', 'MongoDB'],
-        url:''
+        description: "MERN full-stack Social Media web app!, Currently I'm working on adding chat feature!, soon.. ",
+        tags: ['ReactJs','NodeJs' ,'ExpressJs', 'MongoDB','Context-API','JWT'],
+        url:'https://github.com/MoSaeedNahlous/MERN---Social-Media-App'
     }
 ]
