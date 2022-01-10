@@ -72,8 +72,8 @@ export const PROJECT_DATA = [
     {
         id:'p11',
         title: 'Social Media App',
-        description: "MERN full-stack Social Media web app!, Currently I'm working on adding chat feature!, soon.. ",
-        tags: ['ReactJs','NodeJs' ,'ExpressJs', 'MongoDB','Context-API','JWT'],
+        description: "MERN full-stack Social Media web app with Chat Messenger! ",
+        tags: ['ReactJs','NodeJs' ,'ExpressJs', 'MongoDB','Context-API','Socket.IO'],
         url:'https://github.com/MoSaeedNahlous/MERN---Social-Media-App'
     }
 ]
