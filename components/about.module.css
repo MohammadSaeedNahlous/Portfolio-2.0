@@ -1,10 +1,11 @@
 .main{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     padding: 7%;
     height: 100vh;
+    padding-top: 0;
 }
 
 .titleContainer{
@@ -64,5 +65,48 @@
 }
 
 .tecListItemIcon{
-    margin-right: 10px;
+    margin-right: 8px;
+}
+
+@media only screen and (max-width: 987px) {
+    .titleContainer{
+        font-size: 15px;
+    }
+    .descriptionContainer{
+        font-size:14px
+    }
+    .main{
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .titleContainer{
+        font-size: 11px;
+    }
+    .descriptionContainer{
+        font-size:10px
+    }
+    .main{
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 441px) {
+    .titleContainer{
+        font-size: 8px;
+    }
+    .descriptionContainer{
+        font-size:6px
+    }
+    .tecListItemIcon{
+    width: 10px;
+}
+.tecList{
+    justify-content: space-between;
+    height: 50%;
+}
+.main{
+        height: 40vh;
+    }
 }

@@ -37,8 +37,14 @@
 }
 
 @media only screen and (max-width: 400px) {
-  .icon{
-    width: 15px;
+  .iconsContainer{
+    bottom: 4px;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    top: 95%;
+    justify-content: space-around;
+    align-items: center;
   }
 }
 
