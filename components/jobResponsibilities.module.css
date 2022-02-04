@@ -104,6 +104,7 @@
   align-items: space-around;
   height: 100%;
   color: #ccd6f6;
+  transition: 0.5s;
 }
 
 .jobResponsibilitiesListItem {
@@ -112,4 +113,67 @@
 }
 .tecListItemIcon {
   margin-right: 10px;
+}
+
+@media only screen and (max-width: 1210px) {
+    .jobTitles{
+        font-size: 15px;
+    }
+    .jobResponsibilitiesListItem {
+  display: flex;
+  font-size: 14px;
+}
+
+}
+
+@media only screen and (max-width: 1088px) {
+    .jobTitles{
+        font-size: 12px;
+    }
+    .main{
+      width: 90%;
+    }
+    
+}
+
+@media only screen and (max-width: 970px) {
+
+    .jobTitleDetails{
+      align-items: center;
+    }
+    .jobTitleDetailsHead{
+      font-size: 14px;
+    }
+    .jobTitleDetailsSmall{
+  font-size: 8px;
+}
+    
+}
+
+@media only screen and (max-width:  860px) {
+  
+    .jobResponsibilitiesListItem {
+
+  font-size: 10px;
+}
+.jobTitleDetailsHead{
+      font-size: 10px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 645px) {
+    .jobTitles{
+        font-size: 8px;
+    }
+    .jobTitleDetailsHead{
+      font-size: 8px;
+    }
+    .jobResponsibilitiesListItem {
+
+  font-size: 6px;
+}
+
+
 }

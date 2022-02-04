@@ -65,3 +65,41 @@
 .tecListItemIcon {
   margin-right: 10px;
 }
+
+@media only screen and (max-width: 1210px) {
+    .titleContainer{
+        font-size: 15px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 987px) {
+    .titleContainer{
+        font-size: 15px;
+    }
+
+    .main{
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .titleContainer{
+        font-size: 11px;
+    }
+
+    .main{
+        height: 50vh;
+    }
+}
+
+
+@media only screen and (max-width: 441px) {
+    .titleContainer{
+        font-size: 8px;
+    }
+.main{
+        height: 40vh;
+    }
+}
