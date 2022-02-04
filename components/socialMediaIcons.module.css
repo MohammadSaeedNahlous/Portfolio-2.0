@@ -12,14 +12,33 @@
     padding:0.2%;
     width:2vw
 }
-.iconContainer{
 
-}
 .icon{
     cursor: pointer;
-    width:30px
+    width:30px;
+    transition: 0.5s;
 }
 
 .icon:hover{
-    color:white
+    color:white;
+    transform: scale(1.3,1.3);
 }
+
+@media only screen and (max-width: 1000px) {
+  .icon{
+    width: 25px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .icon{
+    width: 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .icon{
+    width: 15px;
+  }
+}
+
