@@ -5,7 +5,6 @@
     flex-direction: column;
     padding: 7%;
     height: 100vh;
-    padding-top: 0;
 }
 
 .titleContainer{
@@ -60,9 +59,6 @@
     height: 100%;
 }
 
-.tecListItem{
-    
-}
 
 .tecListItemIcon{
     margin-right: 8px;
@@ -85,10 +81,11 @@
         font-size: 11px;
     }
     .descriptionContainer{
-        font-size:10px
+        font-size:14px
     }
     .main{
-        height: 50vh;
+        height: 60vh;
+        margin-bottom: 10%;
     }
 }
 
@@ -97,7 +94,7 @@
         font-size: 8px;
     }
     .descriptionContainer{
-        font-size:6px
+        font-size:10px
     }
     .tecListItemIcon{
     width: 10px;
@@ -107,6 +104,7 @@
     height: 50%;
 }
 .main{
-        height: 40vh;
+    height: 50vh;
+        margin-bottom: 5%;
     }
 }

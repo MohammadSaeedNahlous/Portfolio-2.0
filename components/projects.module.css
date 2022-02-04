@@ -4,8 +4,6 @@
     justify-content: center;
     flex-direction: column;
     padding: 7%;
-    height: max-content;
-    overflow: hidden;
 }
 
 .titleContainer{
@@ -36,6 +34,7 @@
     font-size:18px; 
     padding-right: 5%;
     padding-left: 5%;
+    height: max-content;
 }
 
 .tecContainer{
@@ -60,10 +59,31 @@
     height: 100%;
 }
 
-.tecListItem{
-    
-}
 
 .tecListItemIcon{
     margin-right: 10px;
+}
+@media only screen and (max-width: 987px) {
+    .titleContainer{
+        font-size: 15px;
+    }
+
+
+}
+
+@media only screen and (max-width: 765px) {
+    .titleContainer{
+        font-size: 11px;
+    }
+
+
+}
+
+@media only screen and (max-width: 441px) {
+    .titleContainer{
+        font-size: 8px;
+    }
+
+
+
 }

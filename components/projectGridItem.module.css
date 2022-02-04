@@ -40,9 +40,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-bottom:6%;
-    
-    
+
 }
 .link{
     width:30px
@@ -54,22 +52,22 @@
 .body{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: flex-start;
     margin-bottom:10%;
-    height: 120px;
+    height: 160px;
+    width: 100%;
 }
 .title{
     font-weight:bold;
     color: #CCD6F6;
     font-size:20px;
-    margin-bottom: 2%;
-    height:40px;
-    
+    margin-bottom: 5%;
+    height:40px; 
 }
 .description{
     height:80px;
-    padding-top: 3%;
+    font-size: 16px;
 }
 
 .tail{
@@ -80,5 +78,25 @@
     padding-bottom: 4%;
 }
 .tag{
-    font-size:14px;
+    font-size:10px;
+}
+
+@media only screen and (max-width: 1207px) {
+    .description{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .title{
+        font-size: 17px;
+    }
+    .tag{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    .body{
+    height: 80px;
+}
 }

@@ -9,7 +9,7 @@ const Hero = () => {
                     src={ '/images/my-pic.JPG' }
                     alt="My Image"
                     width={ 630 }
-                    height={ 750 }
+                    height={ 680 }
                 />
             </div>
             <div className={ classes.text }>
