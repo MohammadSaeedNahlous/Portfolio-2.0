@@ -4,7 +4,8 @@ export const PROJECT_DATA = [
         title: 'GitHub Finder',
         description: 'ReactJs project that consumes GitHub API, You can search for people Accounts on GitHub and retrieve their information, repositories, if they are hireable or not, and more!',
         tags: ['ReactJs','Context-API', 'GitHub API'],
-        url:'https://github.com/MoSaeedNahlous/GitHub-Finder'
+        url: 'https://github.com/MoSaeedNahlous/GitHub-Finder',
+        projectUrl:'https://react-app-github-finder-app.netlify.app/'
     },
     {
         id:'p2',
