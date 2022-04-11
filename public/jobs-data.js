@@ -15,10 +15,11 @@ export const JOB_DATA = [
     title: 'Frontend Developer',
     companyName: 'Robotic Minds',
     startDate: 'February 2021',
-    endDate: 'May 2021',
+    endDate: 'Present',
     Responsibilities: [
       'Write modern, performant, maintainable code for old and new projects',
       'Building UI for IOT projects',
+      'Building Projects With ReactJs and maintaining it',
     ],
   },
 ];
