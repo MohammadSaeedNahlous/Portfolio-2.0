@@ -3,14 +3,14 @@ import Link from 'next/link';
 const ProjectGridItem = (props) => {
   const { url, title, tags, projectUrl, description } = props.project;
   return (
-    <div className={classes.main}>
-      <div className={classes.head}>
-        <span title={projectUrl && 'Go to GitHub repo'}>
-          <Link href={projectUrl ? projectUrl : ''}>
+    <div className={ classes.main }>
+      <div className={ classes.head }>
+        { projectUrl && <span title={ projectUrl && 'Go to GitHub repo' }>
+          <Link href={ projectUrl ? projectUrl : '' }>
             <a target='_blank'>
               <svg
                 fill='#17c4a7'
-                className={classes.icon}
+                className={ classes.icon }
                 xmlns='http://www.w3.org/2000/svg'
                 viewBox='0 0 64 64'
                 width='64px'
@@ -20,13 +20,13 @@ const ProjectGridItem = (props) => {
               </svg>
             </a>
           </Link>
-        </span>
+        </span> }
         <span title='Go to GitHub repo'>
-          <Link href={url ? url : ''}>
+          <Link href={ url ? url : '' }>
             <a target='_blank'>
               <svg
                 fill='#17c4a7'
-                className={classes.link}
+                className={ classes.link }
                 xmlns='http://www.w3.org/2000/svg'
                 viewBox='0 0 64 64'
                 width='64px'
@@ -38,16 +38,16 @@ const ProjectGridItem = (props) => {
           </Link>
         </span>
       </div>
-      <div className={classes.body}>
-        <div className={classes.title}>{title}</div>
-        <div className={classes.description}>{description}</div>
+      <div className={ classes.body }>
+        <div className={ classes.title }>{ title }</div>
+        <div className={ classes.description }>{ description }</div>
       </div>
-      <div className={classes.tail}>
-        {tags.map((tag) => (
-          <div className={classes.tag} key={tag}>
-            {tag}
+      <div className={ classes.tail }>
+        { tags.map((tag) => (
+          <div className={ classes.tag } key={ tag }>
+            { tag }
           </div>
-        ))}
+        )) }
       </div>
     </div>
   );
